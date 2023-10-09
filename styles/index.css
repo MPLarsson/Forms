@@ -1,0 +1,114 @@
+body {
+    background-color: lightsteelblue;
+    display: grid;
+    justify-content: center;
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    width: 1179px;
+    height: 133px;
+    background-color: rgba(113, 153, 214, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-txt {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 205px;
+    height: 52px;
+    background-color: rgba(207, 227, 225, 1);
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.central {
+    width: 1179px;
+    height: 557px;
+    position: relative;
+    display: flex;
+}
+
+.central-section {
+    font-family: 'Poppins', sans-serif;
+    width: 393px;
+    height: 557px;
+    background-color: rgba(113, 153, 214, 1);
+    border-top: solid;
+    position: relative;
+    display: grid;
+    justify-content: center;
+}
+
+.central-img {
+    width: 393px;
+    height: 557px;
+    border-top: solid;
+    position: relative;
+    display: flex;
+}
+
+.central-section-txt {
+    width: 60%;
+    height: 60%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.footer {
+    font-family: 'Poppins', sans-serif;
+    width: 1179px;
+    height: 133px;
+    background-color: rgba(113, 153, 214, 1);
+    border-top: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox-container {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.forms_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+}
+
+.label:hover {
+    background-color: rgba(207, 227, 225, 1);
+}
+
+.label {
+    background-color: aliceblue;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    padding: 5%;
+}
+
+.input-field {
+    position: relative;
+    display: flex;
+}
